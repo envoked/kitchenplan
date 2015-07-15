@@ -1,13 +1,12 @@
 groups:
-    - groupa
+    - default
 recipes:
     mac_os_x:
-        - osxdefaults::set_computer_name
+        - applications::sublime_text_3
 attributes:
-    osxdefaults:
-        computername: MyComputerName
     homebrewalt:
         apps:
-            - git-extras
+
         cask_apps:
-            - sourcetree
+            - slack
+            - sequel-pro
