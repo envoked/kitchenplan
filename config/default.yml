@@ -9,13 +9,23 @@ attributes:
     homebrewalt:
         apps:
             - git
+            - memcached
+            - libmemcached
+            - mysql
+            - redis
         cask_apps:
             - google-chrome
+            - alfred
+            - sequel-pro
+            - iterm2
+            - slack
+            - 1password
+            -
         cask_fonts:
             - inconsolata
     nodejs:
         apps:
-            - bower
+            - gulp
 
     ruby:
         apps:
